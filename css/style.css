@@ -58,13 +58,11 @@ li a:hover {
 .banner {
   background-image: url("../assets/banner.png");
   background-size: 100%;
-  font-size: 40px;
+  padding-top: 10px;
+  font-size: 6vh;
   color: white;
-  padding: 40px;
   display: flex;
   text-align: center;
-  justify-content: center;
-
 }
 
 .container {
@@ -102,6 +100,7 @@ p {
 
 h2 {
   font-size: 34px;
+  padding: 10px;
 }
 
 .text {
@@ -128,7 +127,7 @@ h2 {
 
 .caption {
   color: white;
-  font-size: 70px;
-  width: 50%;
+  font-size: 8vh;
+  width: 100%;
   text-align: left;
 }

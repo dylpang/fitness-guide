@@ -64,7 +64,7 @@ h1 {
 }
 
 h2 {
-  line-height: 40px;
+  text-align: center;
 }
 
 .container {
@@ -147,20 +147,21 @@ h3 {
 }
 .pic {
   width: 100%;
-  height: auto;
 }
 
 .description {
   width: 100%;
+
 }
 .description li {
 
-  font-size: 24px;
+  font-size: 3vh;
   line-height: 40px;
 }
 
 .image {
   width: 100%;
+  align-items: center;
   border-radius: 24px;
   border: inset;
 

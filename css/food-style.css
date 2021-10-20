@@ -54,4 +54,78 @@ li a:hover {
 .mainContainer {
   display: flex;
   flex-direction: column;
+  padding-top: 70px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  padding: 20px;
+  text-align: center;
+}
+
+.twoUp {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.image{
+  border-radius: 0px 25px 25px 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pic {
+  width: 50%;
+}
+
+.imageLeft {
+  border-radius: 25px 0px 0px 25px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 36px;
+  font-size: 24px;
+  text-align: justify;
+  background-color: #85C6FA;
+  border-radius: 25px 0px 0px 25px;
+  padding: 0px 10px 0px 10px;
+  width: 100%;
+}
+
+.descriptionRight {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 36px;
+  font-size: 24px;
+  text-align: justify;
+  background-color: #85C6FA;
+  border-radius: 0px 25px 25px 0px;
+  padding: 0px 10px 0px 10px;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0px;
+  padding: 0px;
 }
