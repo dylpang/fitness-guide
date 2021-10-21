@@ -45,7 +45,7 @@ li a:hover {
 
 .navBar {
   font-size: 24px;
-  background-color: #61F69B;
+  background-color: #79FD86;
   position: fixed;
   padding: 20px;
   width: 100%;
@@ -59,9 +59,10 @@ li a:hover {
   background-image: url("../assets/banner.png");
   background-size: 100%;
   padding-top: 10px;
-  font-size: 6vh;
+  font-size: 40px;
   color: white;
   display: flex;
+  justify-content: center;
   text-align: center;
 }
 

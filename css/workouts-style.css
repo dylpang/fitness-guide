@@ -10,6 +10,7 @@ body, html {
   font-family: 'Poppins', sans-serif;
   background-color: #d88b7b;
   background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23ececec' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
 }
 
 .navLinks{
@@ -45,7 +46,7 @@ li a:hover {
 
 .navBar {
   font-size: 24px;
-  background-color: #61F69B;
+  background-color: #79FD86;
   position: fixed;
   padding: 20px;
   width: 100%;
@@ -101,7 +102,6 @@ p {
   border-radius: 20px;
   box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.50);
   padding: 50px;
-  transition: all .2 ease-in-out;
 }
 
 .text {
@@ -116,7 +116,7 @@ h3 {
 }
 /* Style the button that is used to open and close the collapsible content */
 .collapsible, .collapsible2, .collapsible3 {
-  background-color: #61F69B;
+  background-color: #79FD86;
   font-weight: bold;
   color: #444;
   cursor: pointer;
@@ -129,7 +129,7 @@ h3 {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .collapsible:hover, .collapsible2:hover, .collapsible3:hover {
-  background-color:  #20f272;
+  background-color:  #6ce378;
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -137,7 +137,8 @@ h3 {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #85C6FA;
+  background-color: #85c6fa;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.42' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
 
