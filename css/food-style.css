@@ -130,3 +130,44 @@ h3 {
   margin: 0px;
   padding: 0px;
 }
+
+
+@media only screen and (max-width: 600px) {
+.logo {
+  position: static;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 250px;
+}
+
+.twoUp {
+  flex-direction: column;
+  padding: 30px;
+}
+
+.description, .descriptionRight, .image, .imageLeft {
+  border-radius: 0px;
+}
+
+.description, .descriptionRight {
+  padding: 20px;
+}
+
+.image, .imageLeft
+}
+.pic {
+  width: 100%;
+  height: auto;
+}
+
+
+}
